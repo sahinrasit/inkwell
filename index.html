@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkwell Scan – Support</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { --ink: #1d2c6b; --text: #1c1c1e; --muted: #5f6368; --bg: #fdfaf2; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #8fa6ff; --text: #f2f2f7; --muted: #a1a1aa; --bg: #17171a; --card: #232327; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+  header { display: flex; gap: 18px; align-items: center; }
+  header img { width: 84px; height: 84px; border-radius: 19px; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+  h1 { color: var(--ink); font-size: 32px; margin: 0; }
+  h2 { color: var(--ink); font-size: 21px; margin-top: 36px; }
+  .muted { color: var(--muted); margin: 2px 0 0; }
+  .card { background: var(--card); border-radius: 14px; padding: 4px 20px; margin-top: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  a { color: var(--ink); }
+  dt { font-weight: 600; margin-top: 14px; }
+  dd { margin: 4px 0 14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>Inkwell Scan</h1>
+    <p class="muted">Handwritten notebook pages to Markdown, on your device.</p>
+  </div>
+</header>
+
+<h2>Support</h2>
+<p>Questions, bugs or a page that won't read well? Email <a href="mailto:mrrasitsahin@icloud.com">mrrasitsahin@icloud.com</a>. Sending the page photo (if you're comfortable sharing it) helps a lot.</p>
+
+<h2>Frequently asked</h2>
+<div class="card">
+<dl>
+  <dt>Does my handwriting leave my phone?</dt>
+  <dd>No. Recognition and the optional Apple Intelligence cleanup run on the device. There is no account and no server.</dd>
+  <dt>How do I save into my Obsidian vault?</dt>
+  <dd>Open a page, tap Export → Save to Obsidian Folder and pick your vault folder once in Files. Notes are saved to <code>Inkwell/&lt;Notebook&gt;/&lt;date&gt;-p&lt;page&gt;.md</code> with front matter. If you use Obsidian Sync, choose the vault folder that is on this device.</dd>
+  <dt>Some words are wrong.</dt>
+  <dd>Cursive accuracy depends on the handwriting. Open the Check tab: unsure lines are highlighted and tapping one shows it on the page, so you can fix it while looking at your writing.</dd>
+  <dt>How do I restore my purchase?</dt>
+  <dd>Settings → Restore Purchases, or the Restore link on the unlock screen.</dd>
+  <dt>Which languages work?</dt>
+  <dd>English, German, French, Spanish, Italian, Portuguese and other languages supported by Apple's text recognition. Turkish is read with Latin-script recognition plus a Turkish correction pass.</dd>
+</dl>
+</div>
+
+<h2>Legal</h2>
+<p><a href="privacy/">Privacy Policy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple EULA)</a></p>
+
+<h2 lang="tr">Destek (Türkçe)</h2>
+<p lang="tr">Sorularınız ve hata bildirimleriniz için <a href="mailto:mrrasitsahin@icloud.com">mrrasitsahin@icloud.com</a> adresine yazın. Sayfalarınız cihazınızdan çıkmaz; satın almayı geri yüklemek için Ayarlar → Satın Almaları Geri Yükle.</p>
+</main>
+</body>
+</html>
